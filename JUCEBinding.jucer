@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GOb5dW" name="JUCEBinding" projectType="dll" jucerVersion="5.4.1"
+              cppLanguageStandard="17">
+  <MAINGROUP id="j4wDnZ" name="JUCEBinding">
+    <GROUP id="{E9A87FD9-22BD-452E-9740-822D1CFA9970}" name="Source">
+      <FILE id="eyh1YG" name="interface.cpp" compile="1" resource="0" file="Source/interface.cpp"/>
+      <FILE id="P4btwB" name="interface.h" compile="0" resource="0" file="Source/interface.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" optimisation="3" isDebug="0"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_processors" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../XcodeProjects/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../XcodeProjects/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_PLUGINHOST_AU="1"/>
+</JUCERPROJECT>
